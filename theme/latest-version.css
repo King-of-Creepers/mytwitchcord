@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-@import url("https://rawgit.com/dperolio/twitchcordTheme/master/importCSS/badges.css");
-@import url("https://rawgit.com/dperolio/twitchcordTheme/master/importCSS/labels.css");
+@import url("https://raw.githubusercontent.com/King-of-Creepers/mytwitchcord/master/importCSS/badges.css");
+@import url("https://raw.githubusercontent.com/King-of-Creepers/mytwitchcord/master/importCSS/labels.css");
 
 /*
 ████████╗██╗    ██╗██╗████████╗ ██████╗██╗  ██╗ ██████╗ ██████╗ ██████╗ ██████╗ 
@@ -44,25 +44,25 @@ Cheers, and enjoy.
     --plugin-notice: 'Now that you\'re using the Twitchcord theme, it\'s highly recommended you also download and enable the official Twitchcord plugin. The plugin contains some small fixes and features not possible with just CSS, including a ton of user customizability options! The plugin also enables custom user profile backgrounds, so if you want to have yours added to the list so other Twitchcord users can see it as well, just download and enable the plugin, and stop on over to our Discord server and submit your background in the #set-user-profile-background channel.';
     --plugin-enabled-notice: 'You\'ve successfully downloaded and installed the Twitchcord plugin! You now have access to many customizability options and settings, as well as small features and improvements you may notice around the theme. One great aspect of the plugin is the use of custom user profile backgrounds: to set yours, join the Discord server (listed above) and head over to the #set-user-profile-background channel. Like the theme, the plugin should automatically update as well.';
     
-    --dark-modal-bg: #201c2b;
-    --titlebar-color: #2c2541;
-    --chat-color: #0e0c13;
-    --channels-color: #17141f;
-    --channels-color-darken: #110f17;
+    --dark-modal-bg: #1c2b1d;
+    --titlebar-color: #1d3d24;
+    --chat-color: #0c130c;
+    --channels-color: #141f14;
+    --channels-color-darken: #0f170f;
     --titlebar-color-alt: url('https://www.twitchcord.com/twitchcord-theme/images/titlebar-alt-bg.png'), linear-gradient(to bottom,#201d2e 0, #121016 100%);
     --titlebar-color-alt2: url('https://www.twitchcord.com/twitchcord-theme/images/titlebar-alt-bg.png'), linear-gradient(to bottom, #121016 0, #201d2e 100%);
-    --top-nav-color: #392e5c;
+    --top-nav-color: #1c5b1a;
 
-    --links-color: #b19dd8;
-    --button-color: #6442a4;
-    --button-color-hover: #7d5bbf;
+    --links-color: #aaffa5;
+    --button-color: #1f9b0f;
+    --button-color-hover: #00bc0f;
 
-    --important-notification-color: #d84747;
-    --important-notification-color-hover: #f12020;
+    --important-notification-color: #d30000;
+    --important-notification-color-hover: #ff3232;
 
-    --dark-text-tint: #a195ad;
+    --dark-text-tint: #8eaf8f;
     --dark-text-normal: #99aab5;
-    --dark-text-header: #dad8de;
+    --dark-text-header: #d8ded8;
 
     --font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-coding: 'Roboto Mono', monospace;
@@ -215,7 +215,7 @@ textarea:disabled, textarea:disabled:hover {
 }
 
 .wordmark-2L03Wr::before {
-    content: 'Twitch';
+    content: 'Dis';
     z-index: 999999999999999999999;
     font-size: 14px;
     text-transform: uppercase;
@@ -277,7 +277,7 @@ textarea:disabled, textarea:disabled:hover {
 }
 
 .winButton-U7zAqI :hover {
-    background-color: #433c59!important;
+    background-color: #295929!important;
 }
 
 .user-settings-games .game-name {
@@ -456,7 +456,7 @@ textarea {
 
 .embed .embed-author-icon {
     border-radius: 0;
-    border: 1px solid #a373ff;
+    border: 1px solid #52fc46;
     box-shadow: rgba(163, 115, 255, .8) 0px 0px 15px!important;
     height: 30px;
     width: 30px;
@@ -525,7 +525,7 @@ textarea {
     left: 0;
     right: 0;
     border-radius: 0;
-    background-color: #5b3c95;
+    background-color: #309b26;
     opacity: 0.9;
 }
 
@@ -545,7 +545,7 @@ textarea {
 }
 
 .headerStreaming-3F-wjT {
-    background: #593695;
+    background: #379536;
     background: url('https://www.twitchcord.com/twitchcord-theme/images/twitch-bg.jpg') no-repeat;
     background-position: bottom center;
 }
@@ -581,7 +581,7 @@ textarea {
 
 .friends-table .messages .divider-red span,
 .messages-wrapper .messages .divider-red span {
-    color: #a878ff!important;
+    color: #6dff6d!important;
     text-transform: capitalize;
     font-size: 16px;
 }
@@ -759,7 +759,7 @@ textarea {
 }
 
 .message-group h2 span {
-    color: #898395!important;
+    color: #879583!important;
 }
 
 .reset-folylf {
@@ -872,7 +872,7 @@ textarea {
 }
 
 .textArea-20yzAH {
-    color: #faf9fa;
+    color: #effff1;
     background: var(--channels-color);
     border: 1px solid var(--titlebar-color);
     -webkit-transition: -webkit-box-shadow 0.12s ease-in;
@@ -889,7 +889,7 @@ textarea {
 }
 
 .textArea-20yzAH:focus {
-    box-shadow: inset 0 0 0 1px #7d5bbe, 0 0 6px -2px #7d5bbe;
+    box-shadow: inset 0 0 0 1px #41c138, 0 0 6px -2px #41c138;
     -webkit-transition: -webkit-box-shadow 0.12s ease-in;
     transition: -webkit-box-shadow 0.12s ease-in;
     transition: box-shadow 0.12s ease-in;
@@ -935,7 +935,7 @@ textarea {
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     border: none;
     border-radius: 0;
-    background: #382f5a!important;
+    background: #2a5628!important;
 }
 
 .image .image-gif {
@@ -1011,7 +1011,7 @@ textarea {
 
 .search-results-wrap .search-result .search-result-message.hit:hover,
 .search-results-wrap .search-result.expanded .search-result-message.hit {
-    background-color: #08050d!important;
+    background-color: #050d05!important;
 }
 
 .need-help-modal.deprecated .header {
@@ -1196,7 +1196,7 @@ textarea {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #382f5a;
+    background: #305a2e;
 }
 
 .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
@@ -1240,7 +1240,7 @@ textarea {
 
 .friends-table .messages .divider:not(.divider-red) div,
 .messages-wrapper .messages .divider:not(.divider-red) div {
-    background: #433f4a !important;
+    background: #2d492d !important;
 }
 
 .chat>.content {
@@ -1371,7 +1371,7 @@ textarea {
 .nameMuted-1n0LSj,
 .nameUnread-WKlSv- {
     width: 100%;
-    color: #cbc8d0;
+    color: #c8d0c8;
     text-transform: capitalize;
     font-size: 14px;
     font-weight: normal;
@@ -1505,7 +1505,7 @@ textarea {
     padding-top: 0;
     margin-left: 11px;
     margin-top: 4px;
-    color: #a8a0b8;
+    color: #a0b8a3;
     opacity: 1;
     position: absolute;
 }
@@ -1569,7 +1569,7 @@ textarea {
 }
 
 .guilds-wrapper .guilds .guild .guild-inner:hover {
-    background: #1c1826;
+    background: #182618;
 }
 
 .message-group {
@@ -1757,8 +1757,8 @@ textarea {
 .tipsy-inner {
     background-color: #fff!important;
     border-radius: 1px;
-    color: #0e1011!important;
-    border: 1px solid #b8b5c0!important;
+    color: #0e110e!important;
+    border: 1px solid #b5c0b5!important;
     padding: 8px 18px;
     line-height: 16px;
     font-size: 12px;
@@ -1876,11 +1876,11 @@ textarea {
 }
 
 .popout-open .header-1tSljs {
-    background: #483b75;
+    background: #3b753d;
 }
 
 .header-1tSljs:hover {
-    background: #483b75;
+    background: #3e753b;
 }
 
 .guilds-wrapper .guilds .guild:before, .guilds-wrapper .guilds .guild.selected:before, .guilds-wrapper .guilds .guild.unread:before, .guilds-wrapper .guilds .guild.unread.selected:before {
@@ -1917,13 +1917,13 @@ textarea {
 .channel-members .member {
     padding: 5px!important;
     margin-left: 15px;
-    color: #cbc8d0!important;
+    color: #c8d0c8!important;
     height: 46px;
     line-height: 46px;
 }
 
 .message-group .comment .markup {
-    color: #cbc8d0!important;
+    color: #c8d0c8!important;
     line-height: 22px;
     font-size: 14px;
     font-weight: 400;
@@ -1936,7 +1936,7 @@ textarea {
 .channel-members .member .member-activity {
     line-height: 16px;
     font-size: 12px;
-    color: #898395;
+    color: #5f8e63;
 }
 
 .embed .embed-video-actions .embed-video-actions-inner {
@@ -2006,7 +2006,7 @@ textarea {
 }
 
 .textArea-20yzAH::-webkit-input-placeholder {
-    color: #898395!important;
+    color: #689b6b!important;
 }
 
 .chat>.title-wrap .topic a {
