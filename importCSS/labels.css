@@ -6,7 +6,7 @@
 .avatar-large+.comment .timestamp::before {
     content: none;
     text-transform: uppercase;
-    border: 1px solid #9866ff;
+    border: 1px solid #00b71e;
     border-radius: 2px;
     font-weight: 400;
     margin: 0;
@@ -40,9 +40,9 @@
 .avatar-large[style*="98829797735559168"]+.comment .timestamp::before,
 .avatar-large[style*="274950159195176963"]+.comment .timestamp::before {
     content: 'Beta Tester';
-    border-color: #ffa066;
-    background: #e56b2e;
-    box-shadow: 0 0 5px 1px #5C482E, inset 0 0 10px rgba(92, 68, 46, 0.7);
+    border-color: #d10600;
+    background: #d64700;
+    box-shadow: 0 0 5px 1px #663b05, inset 0 0 10px rgba(92, 68, 46, 0.7);
 }
 
 /* Supporter */
@@ -64,17 +64,17 @@
 /* 5/12/2018 */ .avatar-large[style*="98270968945864704"]+.comment .timestamp::before,
 /* 7/18/2018 */ .avatar-large[style*="145799943980843008"]+.comment .timestamp::before {
     content: 'Turbo User';
-    border-color: #9866ff;
-    background: #5f29cc;
+    border-color: #00db06;
+    background: #008e00;
     box-shadow: 0 0 5px 1px var(--top-nav-color), inset 0 0 10px rgba(57, 46, 92, 0.7);
  }
 
 /* Plugin Developer */
 .avatar-large[style*="284122164582416385"]+.comment .timestamp::before {
     content: 'Plugin Developer';
-    border-color: #9f72c2;
-    background: #604575;
-    box-shadow: 0 0 5px 1px #3f3b42, inset 0 0 10px rgba(63,59,66, 0.7);
+    border-color: #4fff5a;
+    background: #2d7238;
+    box-shadow: 0 0 5px 1px #2e4731, inset 0 0 10px rgba(63,59,66, 0.7);
     /*border-color: #d8d8d8;
     background: #9e9e9e;
     box-shadow: 0 0 5px 1px #3a3a3a, inset 0 0 10px rgba(58,58,58, 0.7);*/
@@ -84,8 +84,8 @@
 .avatar-large[style*="97549189629636608"]+.comment .timestamp::before,
 .avatar-large[style*="284122164582416385"]+.comment .timestamp::before {
     content: 'Twitchcord Head Developer';
-    border-color: #ff6395;
-    background: #b82553;
+    border-color: #3dff40;
+    background: #27b220;
     box-shadow: 0 0 5px 1px #9e1842, inset 0 0 10px rgba(158,24,66, 0.7);
 }
 .avatar-large[style*="97549189629636608"]+.comment .timestamp::before {
